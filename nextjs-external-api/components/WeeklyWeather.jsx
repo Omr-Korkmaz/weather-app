@@ -27,7 +27,7 @@ export default function WeeklyWeather({ weeklyWeather, timezone }) {
                   </div>
                 </div>
 
-                <h5>{weather.weather[0].description}</h5>
+                <h5 className={styles.weekly__card__desc}>{weather.weather[0].description}</h5>
 
                 <h5>
                   <span>{weather.temp.max.toFixed(0)}&deg;C / </span>

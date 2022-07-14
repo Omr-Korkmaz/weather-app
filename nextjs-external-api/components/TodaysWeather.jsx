@@ -5,13 +5,13 @@ import styles from "../styles/TodaysWeather.module.scss";
 
 export default function TodaysWeather({ city, weather, timezone }) {
   return (
-    <div className={styles.today}>
-      <div className={styles.today__inner}>
-          <h2>TODAY</h2>
+    <div className={styles.current}>
+      <div className={styles.current__inner}>
+          <h2 className={styles.current__inner__day}>TODAY</h2>
           <h1>
             {city.name} ({city.country})
           </h1>
-          <div className={styles.today__iconWrapper}>
+          <div className={styles.current__iconWrapper}>
             <div>
               <Image
                 src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`}
@@ -20,7 +20,7 @@ export default function TodaysWeather({ city, weather, timezone }) {
               />
             </div>
           </div>
-          <h3 className={styles.today__inner__desc}>{weather.weather[0].description}</h3>
+          <h3 className={styles.current__inner__desc}>{weather.weather[0].description}</h3>
 
 
 
@@ -32,7 +32,7 @@ export default function TodaysWeather({ city, weather, timezone }) {
 
     
 
-          <div className={styles.today__sunTimes}>
+          <div className={styles.current__sunTimes}>
             <div>
               <span>Sunrise</span>
               <span>

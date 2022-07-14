@@ -1,6 +1,6 @@
 @import "./variables.module.scss";
 
-.today {
+.current {
   border-radius: 10px;
   color: $text-color;
 
@@ -11,9 +11,15 @@
     justify-content: space-between;
     align-items: center;
     padding: 30px;
+    &__day{
 
+      margin-bottom: 20px;
+      font-size: 2em;
+      text-decoration: underline;
+
+    }
     &__desc {
-      margin-bottom: 15px;
+  
     }
   }
 

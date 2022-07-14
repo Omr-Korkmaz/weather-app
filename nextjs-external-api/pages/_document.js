@@ -9,7 +9,7 @@ class MyDocument extends Document {
         <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300&family=Raleway:wght@100&display=swap" rel="stylesheet" />
         </Head>
         <body>
           <Main />
