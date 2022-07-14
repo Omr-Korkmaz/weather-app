@@ -1,0 +1,27 @@
+@import "./variables.module.scss";
+
+
+.city__pageWrapper{
+.city__container{
+    width: 100vw;
+    height: 100vh;
+    background-color: $secondary-color;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .city__container__search{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .city__container__icon{
+       font-size: 60px;
+       color: $text-color;
+    }
+
+}
+
+
+}
